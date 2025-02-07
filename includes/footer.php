@@ -52,8 +52,8 @@
 </body>
 
 
-<script src="js/offcanvas.js"></script>
+<script src="./assets/js/carrosel.js"></script>
 
-<script src="js/carrosel.js "></script>
+<script src="./assets/js/offcanvas.js"></script>
 
 </html>

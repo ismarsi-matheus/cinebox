@@ -174,7 +174,7 @@ VALUES (
         'Uma psicóloga agorafóbica acredita ter testemunhado um crime do outro lado da rua. Combinando suspense psicológico e mistério, o filme mergulha em temas de percepção e realidade.',
         'a-mulher-na-janela.png'
     );
- 
+
 INSERT INTO
     tb_generos (nome, cor)
 VALUES ('Ação', '904141'),
@@ -183,7 +183,7 @@ VALUES ('Ação', '904141'),
     ('Comédia', '210D26'),
     ('Terror', 'D966BA'),
     ('Ficção', '580259');
- 
+
 INSERT INTO
     tb_artistas (nome)
 VALUES ('Zoe Saldaña'),
@@ -196,7 +196,7 @@ VALUES ('Zoe Saldaña'),
     ('Chris Evans'),
     ('Margot Robbie'),
     ('Tom Hardy');
- 
+
 INSERT INTO
     tb_filme_genero (filme_id, genero_id)
 VALUES (1, 6),
@@ -258,7 +258,7 @@ VALUES (1, 6),
     (10, 3),
     -- The Batman - Drama
     (10, 5);
- 
+
 -- The Batman - Crime
 INSERT INTO
     tb_filme_artista (filme_id, artista_id)
@@ -379,7 +379,7 @@ VALUES (1, 1),
     (23, 5),
     -- Daniel Craig em Candlelight
     (24, 10);
- 
+
 INSERT INTO
     tb_filme_genero (filme_id, genero_id)
 VALUES (11, 6),
@@ -435,7 +435,7 @@ VALUES (11, 6),
     (24, 5),
     -- A Mulher na Janela - Terror
     (24, 3);
- 
+
 INSERT INTO
     tb_pessoa (
         nome,
@@ -503,7 +503,7 @@ VALUES (
         'Bairro Virtual',
         'Cidade Matrix'
     );
- 
+
 -- Inserindo dados fictícios na tabela tb_usuario (associando personagens aos usuários)
 INSERT INTO
     tb_usuario (usuario, senha, id_pessoa)
