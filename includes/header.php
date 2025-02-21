@@ -24,6 +24,7 @@ echo $titulo;
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/carrosel.css">
     <link rel="stylesheet" href="assets/css/filmes.css">
+    <link rel="stylesheet" href="assets/css/usuario.css">
 
 </head>
 
@@ -35,7 +36,8 @@ echo $titulo;
             </a>
             <ul class="menu">
                 <li><a href="../index.php">Inicio</a></li>
-                <li><a href="../listarFilmes.php">Filmes</a></li>
+                <li><a href="./listarFilmes.php">Filmes</a></li>
+
                 <li><a href="#">Sobre</a></li>
             </ul>
 
@@ -43,7 +45,7 @@ echo $titulo;
                 <li><a href="#"><i class="bi bi-search"></i></a></li>
                 <li><a href="#"><i class="bi bi-heart"></i></a></li>
                 <li><a href="#"><i class="bi bi-cart3"></i></a></li>
-                <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+                <li><a href="./usuario.php"><i class="bi bi-person-circle"></i></a></li>
             </ul>
             <div id="offcanvas" class="menu_oculto">
             <button class="menu_oculto" onclick="javascript:abrir_nav"><i class="bi bi-list"></i></button>

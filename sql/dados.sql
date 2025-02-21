@@ -6,7 +6,8 @@ INSERT INTO
         descricao,
         poster
     )
-VALUES (
+VALUES
+    (
         'Avatar: O Caminho da Água',
         '12',
         30.00,
@@ -177,7 +178,8 @@ VALUES (
 
 INSERT INTO
     tb_generos (nome, cor)
-VALUES ('Ação', '904141'),
+VALUES
+    ('Ação', '904141'),
     ('Aventura', '7C038C'),
     ('Drama', '070373'),
     ('Comédia', '210D26'),
@@ -186,7 +188,8 @@ VALUES ('Ação', '904141'),
 
 INSERT INTO
     tb_artistas (nome)
-VALUES ('Zoe Saldaña'),
+VALUES
+    ('Zoe Saldaña'),
     ('Will Smith'),
     ('Joaquin Phoenix'),
     ('Robert Pattinson'),
@@ -199,7 +202,8 @@ VALUES ('Zoe Saldaña'),
 
 INSERT INTO
     tb_filme_genero (filme_id, genero_id)
-VALUES (1, 6),
+VALUES
+    (1, 6),
     -- Avatar: O Caminho da Água - Ficção Científica
     (1, 2),
     -- Avatar: O Caminho da Água - Aventura
@@ -262,7 +266,8 @@ VALUES (1, 6),
 -- The Batman - Crime
 INSERT INTO
     tb_filme_artista (filme_id, artista_id)
-VALUES (1, 1),
+VALUES
+    (1, 1),
     -- Zoe Saldaña em Avatar: O Caminho da Água
     (1, 9),
     -- Margot Robbie em Avatar: O Caminho da Água
@@ -382,7 +387,8 @@ VALUES (1, 1),
 
 INSERT INTO
     tb_filme_genero (filme_id, genero_id)
-VALUES (11, 6),
+VALUES
+    (11, 6),
     -- Duna - Ficção Científica
     (11, 2),
     -- Duna - Aventura
@@ -448,7 +454,8 @@ INSERT INTO
         bairro,
         cidade
     )
-VALUES (
+VALUES
+    (
         'Harry Potter',
         1980,
         '12345678901',
@@ -507,20 +514,10 @@ VALUES (
 -- Inserindo dados fictícios na tabela tb_usuario (associando personagens aos usuários)
 INSERT INTO
     tb_usuario (usuario, senha, id_pessoa)
-VALUES ('harry_potter', 'senha123', 1),
-    (
-        'luke_skywalker',
-        'forca123',
-        2
-    ),
-    (
-        'frodo_baggins',
-        'anello123',
-        3
-    ),
-    (
-        'indy_jones',
-        'arqueologia123',
-        4
-    ),
-    ('trinity_matrix', 'neo123', 5);
+VALUES
+    ('harry_potter', 'senha123', 1),
+    ('luke_skywalker', 'forca123', 2),
+    ('frodo_baggins', 'anello123', 3),
+    ('indy_jones', 'arqueologia123', 4),
+    ('trinity_matrix', 'neo123', 5),
+    ('admin', 'admin', 1);
