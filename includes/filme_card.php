@@ -1,6 +1,6 @@
 <div class="col col-3">
                     <figure>
-                        <img src="assets/img/poster/avatar-o-caminho-da-agua.png"
+                            <img src="assets/img/poster/avatar-o-caminho-da-agua.png"
                             alt="Poster do filme Avatar o caminho da água" class="foto_produto">
                         <figcaption>
                             <h4>Avatar o Caminho da Água</h4>
