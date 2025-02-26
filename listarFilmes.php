@@ -2,5 +2,5 @@
 
 $titulo = "";
 include './includes/header.php';
-include './includes/filme_lista.php';
+include './includes/listar_filmes.php';
 include './includes/footer.php';

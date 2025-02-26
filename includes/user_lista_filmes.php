@@ -1,7 +1,7 @@
 <?php
 
-$dsn = 'mysql:dbname=db_cine_box;host=127.0.0.1';
-$user = 'root';
+$dsn = 'mysql:dbname=db_cinebox;host=127.0.0.1';
+$user = 'root'; 
 $password = '';
 
 $banco = new PDO($dsn, $user, $password);
