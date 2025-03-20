@@ -1,3 +1,7 @@
+<?php session_start();?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -28,6 +32,7 @@
     <link rel="stylesheet" href="assets/css/carrossel.css">
     <link rel="stylesheet" href="assets/css/filmes.css">
     <link rel="stylesheet" href="assets/css/usuario.css">
+    <link rel="stylesheet" href="assets/css/login.css">
     
 
 </head>
