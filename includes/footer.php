@@ -38,7 +38,7 @@
                 </ul>
             </div>
         </div>
-        <div class=" footer-bottom">
+        <div class="footer-bottom">
             <p>&copy; 2025. Este site foi desenvolvido com a turma de TI24. Não reservamos os direitos e os valores
                 apresentados são meramente ilustrativos para fins didáticos.</p>
         </div>
@@ -47,8 +47,7 @@
 
 
 </body>
-
-<script src="assets/js/carrossel.js"></script>
-<script src="assets/js/offcanvas.js"></script>
+<script src="./assets/js/carrosel.js"></script>
+<script src="./assets/js/offcanvas.js"></script>
 
 </html>
