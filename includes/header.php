@@ -60,7 +60,7 @@
                 <i class="bi bi-list"></i>
             </button>
 
-            <div id="offcanvas" class="menu-oculto">
+            <div id="offcanvas" class="escondido">
                 <button class="fechar" onclick="javascript:fechar_nav()">
                     <i class="bi bi-x"></i>
                 </button>

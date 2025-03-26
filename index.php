@@ -7,9 +7,9 @@
 
     
     $filmes = new Filmes();
-    $dados = $filmes->listarFilmesBanco();
+    $dadosFilme = $filmes->exibirListaFilmes(8);
 
-    echo $dados;
+    
 
     include './includes/listar_filmes.php';
     include './includes/footer.php';
