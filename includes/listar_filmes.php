@@ -4,6 +4,7 @@
         <div class="row">
 
             <?php foreach ($dadosFilme as $filme) {
+                $dadosGeneros=$bob->consultarGeneroByIdFilme($value['id']);
                 include './includes/filme_card.php';
             } ?>
 
@@ -12,4 +13,4 @@
         </div>
     </main>
 
-</section>>
+</section>  

@@ -33,7 +33,8 @@
     <link rel="stylesheet" href="assets/css/filmes.css">
     <link rel="stylesheet" href="assets/css/usuario.css">
     <link rel="stylesheet" href="assets/css/login.css">
-    
+    <link rel="stylesheet" href="assets/css/filtro.css">
+    <link rel="stylesheet" href="assets/css/detalhes.css">
 
 </head>
 

@@ -8,7 +8,7 @@
                 <h1 class="titulo-jogo"><?= $dados['nome'] ?></h1>
 
                 <div class="genero">
-                    <?php foreach ($dadosGeneros as $gen) { ?>
+                    <?php foreach ($dadosFilme as $gen) { ?>
                         <span style="background-color: #<?= $gen['cor'] ?>;"><?= $gen['nome'] ?></span>
                     <?php } ?>
                 </div>
