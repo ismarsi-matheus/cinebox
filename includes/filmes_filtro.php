@@ -9,7 +9,8 @@
                             <input
                                 id="<?= $value['nome'] ?>"
                                 name="<?= $value['nome'] ?>"
-                                type="checkbox" <?= isset($_GET[$value['nome']]) ? 'checked' : '' ?>>
+                                type="checkbox"
+                                <?= isset($_GET[$value['nome']]) ? 'checked' : '' ?>>
                             <div class="checkmark"></div>
                             <?= $value['nome'] ?>
                         </label>

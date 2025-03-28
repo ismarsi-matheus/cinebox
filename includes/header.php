@@ -28,14 +28,13 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/carrossel.css">
-    <link rel="stylesheet" href="assets/css/filmes.css">
-    <link rel="stylesheet" href="assets/css/usuario.css">
-    <link rel="stylesheet" href="assets/css/login.css">
-    <link rel="stylesheet" href="assets/css/filtro.css">
-    <link rel="stylesheet" href="assets/css/detalhes.css">
-
+    <link rel="stylesheet" href="./assets/css/style.css"> <!-- Certifique-se de que o caminho está correto -->
+    <link rel="stylesheet" href="./assets/css/carrossel.css">
+    <link rel="stylesheet" href="./assets/css/filmes.css">
+    <link rel="stylesheet" href="./assets/css/usuario.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/detalhes.css">
+    <link rel="stylesheet" href="./assets/css/filtro.css">
 </head>
 
 <body>
@@ -56,7 +55,7 @@
                 <li><a href="#"><i class="bi bi-cart3"></i></a></li>
                 <li><a href="./usuario.php"><i class="bi bi-person-circle"></i></a></li>
             </ul>
-
+        
             <button class="escondido" onclick="javascript:abrir_nav()">
                 <i class="bi bi-list"></i>
             </button>
