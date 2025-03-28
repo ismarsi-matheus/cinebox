@@ -9,7 +9,8 @@ include './includes/banner.php';
 $filmes = new Filmes();
 $dadosFilmes = $filmes -> exibirListaFilmes(24);
 
-$genero = new Generos();
+$bob = new Generos();
+$dadosGeneros = $bob->consultarlistaGeneros();
 
 include './includes/listar_filmes.php';
 
